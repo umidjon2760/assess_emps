@@ -1,0 +1,114 @@
+@font-face {
+  font-family: Agipo;
+  src: url('../fonts/agipo_regular-webfont.woff2') format('woff2'), url('../fonts/agipo_regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: Agipo;
+  src: url('../fonts/agipo_bold_condensed-webfont.woff2') format('woff2'), url('../fonts/agipo_bold_condensed-webfont.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face{
+font-family: AvantGardeCTT;
+src: url('../fonts/AvantGardeCTT_Bold.ttf');
+}
+
+h1{
+    background-color: #61bf39;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    padding: 25px;
+    font-family: Agipo;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.nmtype-cont{
+    background-color: #167450;
+    padding: 10px;
+    margin: 10px 50px;
+}
+.nmtype-cont:hover{
+    /*background-color: #4B0082;*/
+    color: black;
+    -webkit-transition: background-color 500ms ease-out;
+    -moz-transition: background-color 500ms ease-out;
+    -o-transition: background-color 500ms ease-out;
+    transition: background-color 500ms ease-out;
+}
+.nm-main-index a:hover{
+    text-decoration: none;
+}
+.nmtype-title{
+    color: white;
+    font-size: 18px;
+    font-weight: normal;
+    font-family: Agipo;
+    letter-spacing: 2px;
+}
+.nmtype-strelka{
+    color: white;
+    float: right;
+    font-size: 18px;
+    font-weight: bold;
+}
+.nmtype-cont:hover .nmtype-title, .nmtype-cont:hover .nmtype-strelka{
+    color: white;
+}
+
+.clear{
+    clear: both;
+}
+
+.nm-napr-list{
+    
+}
+.nm-napr-cont{
+    padding: 5px 10px 5px 50px;
+    margin: 5px 50px 5px 50px;
+    background: #61bf39;
+}
+.nm-napr-cont:hover{
+    background-color: #4B0082;
+    color: black;
+    -webkit-transition: background-color 500ms ease-out;
+    -moz-transition: background-color 500ms ease-out;
+    -o-transition: background-color 500ms ease-out;
+    transition: background-color 500ms ease-out;
+}
+#nmmain-nm_krit label{
+    display: block;
+    margin: 10px;
+    font-size: 16px;
+}
+
+.nmtype-cont-create{
+    background-color: #C71585;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.nm-napr-cont-create{
+    padding: 5px;
+    margin: 10px 0;
+    background: #337ab7;
+}
+#kritson{
+    font-size: 18px;
+}
+
+.wrap > .container {
+    padding: 10px 15px 20px;
+}
+.panel-link div{
+    margin: 5px 0;
+    text-align: left;
+    padding: 3px 10px;
+}
+.panel-heading{
+    cursor: pointer;
+}
