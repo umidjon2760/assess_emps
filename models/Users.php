@@ -113,10 +113,10 @@ class Users extends \yii\db\ActiveRecord implements \yii\web\IdentityInterface
         return $this->LOGIN;
     }
 
-    public static function getId1()
-    {
-        return $this->LOGIN;
-    }
+    // public static function getId1()
+    // {
+    //     return $this->LOGIN;
+    // }
 
     /**
      * {@inheritdoc}
