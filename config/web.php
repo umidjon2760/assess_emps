@@ -22,7 +22,7 @@ $config = [
             // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
             'cookieValidationKey' => 'Lh4E6MRoURz74af0PfLdTY_-AKO2wwEn',
         ],
-        'assetManager' => [ 
+        'assetManager' => [  
             'bundles' => [
                 'kartik\form\Asset' => [
                     'bsDependencyEnabled' => false // do not load bootstrap assets for a specific asset bundle
